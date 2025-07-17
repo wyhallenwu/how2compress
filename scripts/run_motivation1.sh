@@ -1,0 +1,11 @@
+python m1.py --dataset MOT17-04 --qmin 35 --qmax 38
+python m1.py --dataset MOT17-04 --qmin 35 --qmax 37
+python m1.py --dataset MOT17-04 --qmin 35 --qmax 39
+python m1.py --dataset MOT17-04 --qmin 35 --qmax 36
+python m1.py --dataset MOT17-04 --qmin 35 --qmax 40
+python m1.py --dataset MOT17-04 --qmin 35 --qmax 41
+python m1.py --dataset MOT17-04 --qmin 35 --qmax 42
+python m1.py --dataset MOT17-04 --qmin 35 --qmax 43
+python m1.py --dataset MOT17-04 --qmin 35 --qmax 44
+python m1.py --dataset MOT17-04 --qmin 35 --qmax 45
+python m1.py --dataset MOT17-04 --qmin 35 --qmax 50

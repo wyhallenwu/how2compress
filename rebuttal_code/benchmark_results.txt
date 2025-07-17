@@ -1,0 +1,183 @@
+Quantile Categorization Benchmark Results
+==================================================
+
+System Information:
+--------------------
+NumPy version: 2.1.1
+Numba version: 0.61.2
+CuPy version: 13.4.1
+CUDA version: 12.8
+PyTorch version: 2.6.0+cu126
+PyTorch CUDA device: NVIDIA GeForce RTX 3090
+
+Matrix Size: 480p (480x640)
+--------------------
+
+Implementation: CPU (NumPy)
+Mean Time: 18.96 ± 0.41 ms
+Time per Element: 0.061704 µs
+
+Implementation: Numba
+Mean Time: 24.78 ± 2.89 ms
+Time per Element: 0.080673 µs
+
+Implementation: PyTorch
+Mean Time: 3.47 ± 1.23 ms
+Time per Element: 0.011289 µs
+
+Implementation: GPU (CuPy)
+Mean Time: 6.85 ± 2.34 ms
+Time per Element: 0.022292 µs
+
+==================================================
+
+Matrix Size: 720p (720x1280)
+--------------------
+
+Implementation: CPU (NumPy)
+Mean Time: 54.76 ± 1.02 ms
+Time per Element: 0.059420 µs
+
+Implementation: Numba
+Mean Time: 55.61 ± 5.59 ms
+Time per Element: 0.060338 µs
+
+Implementation: PyTorch
+Mean Time: 8.81 ± 1.38 ms
+Time per Element: 0.009563 µs
+
+Implementation: GPU (CuPy)
+Mean Time: 10.01 ± 2.86 ms
+Time per Element: 0.010860 µs
+
+==================================================
+
+Matrix Size: 900p (900x1600)
+--------------------
+
+Implementation: CPU (NumPy)
+Mean Time: 89.05 ± 1.20 ms
+Time per Element: 0.061839 µs
+
+Implementation: Numba
+Mean Time: 59.77 ± 6.18 ms
+Time per Element: 0.041510 µs
+
+Implementation: PyTorch
+Mean Time: 6.83 ± 2.14 ms
+Time per Element: 0.004742 µs
+
+Implementation: GPU (CuPy)
+Mean Time: 23.67 ± 5.74 ms
+Time per Element: 0.016439 µs
+
+==================================================
+
+Matrix Size: 1080p (1080x1920)
+--------------------
+
+Implementation: CPU (NumPy)
+Mean Time: 129.45 ± 2.94 ms
+Time per Element: 0.062429 µs
+
+Implementation: Numba
+Mean Time: 73.55 ± 3.91 ms
+Time per Element: 0.035470 µs
+
+Implementation: PyTorch
+Mean Time: 7.13 ± 0.54 ms
+Time per Element: 0.003441 µs
+
+Implementation: GPU (CuPy)
+Mean Time: 25.65 ± 6.50 ms
+Time per Element: 0.012371 µs
+
+==================================================
+
+Matrix Size: 1440p (1440x2560)
+--------------------
+
+Implementation: CPU (NumPy)
+Mean Time: 225.27 ± 4.10 ms
+Time per Element: 0.061109 µs
+
+Implementation: Numba
+Mean Time: 120.99 ± 2.87 ms
+Time per Element: 0.032819 µs
+
+Implementation: PyTorch
+Mean Time: 11.32 ± 1.10 ms
+Time per Element: 0.003070 µs
+
+Implementation: GPU (CuPy)
+Mean Time: 31.53 ± 6.73 ms
+Time per Element: 0.008552 µs
+
+==================================================
+
+Matrix Size: 2160p (2160x3840)
+--------------------
+
+Implementation: CPU (NumPy)
+Mean Time: 492.99 ± 10.54 ms
+Time per Element: 0.059436 µs
+
+Implementation: Numba
+Mean Time: 268.30 ± 18.12 ms
+Time per Element: 0.032347 µs
+
+Implementation: PyTorch
+Mean Time: 26.40 ± 2.61 ms
+Time per Element: 0.003183 µs
+
+Implementation: GPU (CuPy)
+Mean Time: 46.03 ± 10.77 ms
+Time per Element: 0.005549 µs
+
+==================================================
+
+Summary Statistics
+--------------------
+
+Speedup Ratios (lower is better):
+
+Matrix Size: 1080p (1080x1920)
+CPU (NumPy): 18.15x
+GPU (CuPy): 3.60x
+Numba: 10.31x
+PyTorch: 1.00x
+
+Matrix Size: 1440p (1440x2560)
+CPU (NumPy): 19.91x
+GPU (CuPy): 2.79x
+Numba: 10.69x
+PyTorch: 1.00x
+
+Matrix Size: 2160p (2160x3840)
+CPU (NumPy): 18.67x
+GPU (CuPy): 1.74x
+Numba: 10.16x
+PyTorch: 1.00x
+
+Matrix Size: 480p (480x640)
+CPU (NumPy): 5.47x
+GPU (CuPy): 1.97x
+Numba: 7.15x
+PyTorch: 1.00x
+
+Matrix Size: 720p (720x1280)
+CPU (NumPy): 6.21x
+GPU (CuPy): 1.14x
+Numba: 6.31x
+PyTorch: 1.00x
+
+Matrix Size: 900p (900x1600)
+CPU (NumPy): 13.04x
+GPU (CuPy): 3.47x
+Numba: 8.75x
+PyTorch: 1.00x
+
+==================================================
+
+Note: All times are in milliseconds (ms) unless specified otherwise.
+Time per element is in microseconds (µs).

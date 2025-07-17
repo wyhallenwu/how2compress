@@ -1,0 +1,436 @@
+Tracking Quality Analysis Results
+Generated on: 2025-06-17 07:28:16
+================================================================================
+
+PER-SEQUENCE RESULTS
+================================================================================
+
+Sequence: MOT17-02
+----------------------------------------
+
+OURS Method:
+  MOTA: 0.8911
+  MOTP: 0.9412
+  IDF1: 0.9268
+  Total Ground Truth Objects: 17102
+  Total Predicted Objects: 16842
+  Total Matches: 15774
+  False Positives: 1068
+  False Negatives: 730
+  ID Switches: 0
+
+ACCMPEG Method:
+  MOTA: 0.8816
+  MOTP: 0.9485
+  IDF1: 0.9324
+  Total Ground Truth Objects: 17102
+  Total Predicted Objects: 17379
+  Total Matches: 16113
+  False Positives: 1266
+  False Negatives: 668
+  ID Switches: 0
+
+UNIQP Method:
+  MOTA: 0.9162
+  MOTP: 0.9527
+  IDF1: 0.9422
+  Total Ground Truth Objects: 17102
+  Total Predicted Objects: 16907
+  Total Matches: 16048
+  False Positives: 859
+  False Negatives: 520
+  ID Switches: 0
+
+AQ Method:
+  MOTA: 0.8954
+  MOTP: 0.9419
+  IDF1: 0.9282
+  Total Ground Truth Objects: 17102
+  Total Predicted Objects: 16801
+  Total Matches: 15768
+  False Positives: 1033
+  False Negatives: 687
+  ID Switches: 0
+
+Comparison:
+  MOTA: Ours 0.8911 vs Accmpeg 0.8816
+  MOTP: Ours 0.9412 vs Accmpeg 0.9485
+  IDF1: Ours 0.9268 vs Accmpeg 0.9324
+  ID Switches: Ours 0 vs Accmpeg 0
+
+Comparison:
+  MOTA: Ours 0.8911 vs Uniqp 0.9162
+  MOTP: Ours 0.9412 vs Uniqp 0.9527
+  IDF1: Ours 0.9268 vs Uniqp 0.9422
+  ID Switches: Ours 0 vs Uniqp 0
+
+Comparison:
+  MOTA: Ours 0.8911 vs Aq 0.8954
+  MOTP: Ours 0.9412 vs Aq 0.9419
+  IDF1: Ours 0.9268 vs Aq 0.9282
+  ID Switches: Ours 0 vs Aq 0
+
+================================================================================
+
+Sequence: MOT17-04
+----------------------------------------
+
+OURS Method:
+  MOTA: 0.9820
+  MOTP: 0.9607
+  IDF1: 0.9823
+  Total Ground Truth Objects: 35665
+  Total Predicted Objects: 35265
+  Total Matches: 34851
+  False Positives: 414
+  False Negatives: 207
+  ID Switches: 0
+
+ACCMPEG Method:
+  MOTA: 0.9833
+  MOTP: 0.9621
+  IDF1: 0.9850
+  Total Ground Truth Objects: 35665
+  Total Predicted Objects: 35430
+  Total Matches: 35022
+  False Positives: 408
+  False Negatives: 169
+  ID Switches: 0
+
+UNIQP Method:
+  MOTA: 0.9878
+  MOTP: 0.9712
+  IDF1: 0.9887
+  Total Ground Truth Objects: 35665
+  Total Predicted Objects: 35517
+  Total Matches: 35196
+  False Positives: 321
+  False Negatives: 106
+  ID Switches: 0
+
+AQ Method:
+  MOTA: 0.9856
+  MOTP: 0.9639
+  IDF1: 0.9857
+  Total Ground Truth Objects: 35665
+  Total Predicted Objects: 35391
+  Total Matches: 35030
+  False Positives: 361
+  False Negatives: 140
+  ID Switches: 0
+
+Comparison:
+  MOTA: Ours 0.9820 vs Accmpeg 0.9833
+  MOTP: Ours 0.9607 vs Accmpeg 0.9621
+  IDF1: Ours 0.9823 vs Accmpeg 0.9850
+  ID Switches: Ours 0 vs Accmpeg 0
+
+Comparison:
+  MOTA: Ours 0.9820 vs Uniqp 0.9878
+  MOTP: Ours 0.9607 vs Uniqp 0.9712
+  IDF1: Ours 0.9823 vs Uniqp 0.9887
+  ID Switches: Ours 0 vs Uniqp 0
+
+Comparison:
+  MOTA: Ours 0.9820 vs Aq 0.9856
+  MOTP: Ours 0.9607 vs Aq 0.9639
+  IDF1: Ours 0.9823 vs Aq 0.9857
+  ID Switches: Ours 0 vs Aq 0
+
+================================================================================
+
+Sequence: MOT17-09
+----------------------------------------
+
+OURS Method:
+  MOTA: 0.9717
+  MOTP: 0.9673
+  IDF1: 0.9639
+  Total Ground Truth Objects: 4637
+  Total Predicted Objects: 4528
+  Total Matches: 4421
+  False Positives: 107
+  False Negatives: 25
+  ID Switches: 0
+
+ACCMPEG Method:
+  MOTA: 0.9743
+  MOTP: 0.9706
+  IDF1: 0.9758
+  Total Ground Truth Objects: 4637
+  Total Predicted Objects: 4604
+  Total Matches: 4506
+  False Positives: 98
+  False Negatives: 20
+  ID Switches: 0
+
+UNIQP Method:
+  MOTA: 0.9786
+  MOTP: 0.9776
+  IDF1: 0.9828
+  Total Ground Truth Objects: 4637
+  Total Predicted Objects: 4639
+  Total Matches: 4555
+  False Positives: 84
+  False Negatives: 11
+  ID Switches: 0
+
+AQ Method:
+  MOTA: 0.9734
+  MOTP: 0.9727
+  IDF1: 0.9768
+  Total Ground Truth Objects: 4637
+  Total Predicted Objects: 4614
+  Total Matches: 4513
+  False Positives: 101
+  False Negatives: 20
+  ID Switches: 0
+
+Comparison:
+  MOTA: Ours 0.9717 vs Accmpeg 0.9743
+  MOTP: Ours 0.9673 vs Accmpeg 0.9706
+  IDF1: Ours 0.9639 vs Accmpeg 0.9758
+  ID Switches: Ours 0 vs Accmpeg 0
+
+Comparison:
+  MOTA: Ours 0.9717 vs Uniqp 0.9786
+  MOTP: Ours 0.9673 vs Uniqp 0.9776
+  IDF1: Ours 0.9639 vs Uniqp 0.9828
+  ID Switches: Ours 0 vs Uniqp 0
+
+Comparison:
+  MOTA: Ours 0.9717 vs Aq 0.9734
+  MOTP: Ours 0.9673 vs Aq 0.9727
+  IDF1: Ours 0.9639 vs Aq 0.9768
+  ID Switches: Ours 0 vs Aq 0
+
+================================================================================
+
+Sequence: MOT17-10
+----------------------------------------
+
+OURS Method:
+  MOTA: 0.9090
+  MOTP: 0.9444
+  IDF1: 0.9349
+  Total Ground Truth Objects: 12405
+  Total Predicted Objects: 12317
+  Total Matches: 11571
+  False Positives: 746
+  False Negatives: 375
+  ID Switches: 0
+
+ACCMPEG Method:
+  MOTA: 0.9093
+  MOTP: 0.9505
+  IDF1: 0.9420
+  Total Ground Truth Objects: 12405
+  Total Predicted Objects: 12507
+  Total Matches: 11746
+  False Positives: 761
+  False Negatives: 341
+  ID Switches: 0
+
+UNIQP Method:
+  MOTA: 0.9365
+  MOTP: 0.9580
+  IDF1: 0.9533
+  Total Ground Truth Objects: 12454
+  Total Predicted Objects: 12344
+  Total Matches: 11818
+  False Positives: 526
+  False Negatives: 267
+  ID Switches: 0
+
+AQ Method:
+  MOTA: 0.9283
+  MOTP: 0.9484
+  IDF1: 0.9450
+  Total Ground Truth Objects: 12454
+  Total Predicted Objects: 12234
+  Total Matches: 11662
+  False Positives: 572
+  False Negatives: 324
+  ID Switches: 0
+
+Comparison:
+  MOTA: Ours 0.9090 vs Accmpeg 0.9093
+  MOTP: Ours 0.9444 vs Accmpeg 0.9505
+  IDF1: Ours 0.9349 vs Accmpeg 0.9420
+  ID Switches: Ours 0 vs Accmpeg 0
+
+Comparison:
+  MOTA: Ours 0.9090 vs Uniqp 0.9365
+  MOTP: Ours 0.9444 vs Uniqp 0.9580
+  IDF1: Ours 0.9349 vs Uniqp 0.9533
+  ID Switches: Ours 0 vs Uniqp 0
+
+Comparison:
+  MOTA: Ours 0.9090 vs Aq 0.9283
+  MOTP: Ours 0.9444 vs Aq 0.9484
+  IDF1: Ours 0.9349 vs Aq 0.9450
+  ID Switches: Ours 0 vs Aq 0
+
+================================================================================
+
+Sequence: MOT17-11
+----------------------------------------
+
+OURS Method:
+  MOTA: 0.9647
+  MOTP: 0.9628
+  IDF1: 0.9445
+  Total Ground Truth Objects: 8926
+  Total Predicted Objects: 8337
+  Total Matches: 8135
+  False Positives: 202
+  False Negatives: 104
+  ID Switches: 0
+
+ACCMPEG Method:
+  MOTA: 0.9598
+  MOTP: 0.9653
+  IDF1: 0.9607
+  Total Ground Truth Objects: 8926
+  Total Predicted Objects: 8729
+  Total Matches: 8485
+  False Positives: 244
+  False Negatives: 86
+  ID Switches: 0
+
+UNIQP Method:
+  MOTA: 0.9690
+  MOTP: 0.9745
+  IDF1: 0.9733
+  Total Ground Truth Objects: 8926
+  Total Predicted Objects: 8882
+  Total Matches: 8659
+  False Positives: 223
+  False Negatives: 52
+  ID Switches: 0
+
+AQ Method:
+  MOTA: 0.9670
+  MOTP: 0.9682
+  IDF1: 0.9682
+  Total Ground Truth Objects: 8926
+  Total Predicted Objects: 8797
+  Total Matches: 8574
+  False Positives: 223
+  False Negatives: 68
+  ID Switches: 0
+
+Comparison:
+  MOTA: Ours 0.9647 vs Accmpeg 0.9598
+  MOTP: Ours 0.9628 vs Accmpeg 0.9653
+  IDF1: Ours 0.9445 vs Accmpeg 0.9607
+  ID Switches: Ours 0 vs Accmpeg 0
+
+Comparison:
+  MOTA: Ours 0.9647 vs Uniqp 0.9690
+  MOTP: Ours 0.9628 vs Uniqp 0.9745
+  IDF1: Ours 0.9445 vs Uniqp 0.9733
+  ID Switches: Ours 0 vs Uniqp 0
+
+Comparison:
+  MOTA: Ours 0.9647 vs Aq 0.9670
+  MOTP: Ours 0.9628 vs Aq 0.9682
+  IDF1: Ours 0.9445 vs Aq 0.9682
+  ID Switches: Ours 0 vs Aq 0
+
+================================================================================
+
+Sequence: MOT17-13
+----------------------------------------
+
+OURS Method:
+  MOTA: 0.9185
+  MOTP: 0.9491
+  IDF1: 0.9106
+  Total Ground Truth Objects: 11263
+  Total Predicted Objects: 11061
+  Total Matches: 10697
+  False Positives: 364
+  False Negatives: 144
+  ID Switches: 0
+
+ACCMPEG Method:
+  MOTA: 0.9230
+  MOTP: 0.9431
+  IDF1: 0.9318
+  Total Ground Truth Objects: 11273
+  Total Predicted Objects: 11236
+  Total Matches: 10752
+  False Positives: 484
+  False Negatives: 174
+  ID Switches: 0
+
+UNIQP Method:
+  MOTA: 0.9191
+  MOTP: 0.9520
+  IDF1: 0.9448
+  Total Ground Truth Objects: 11280
+  Total Predicted Objects: 11266
+  Total Matches: 10885
+  False Positives: 381
+  False Negatives: 134
+  ID Switches: 0
+
+AQ Method:
+  MOTA: 0.9085
+  MOTP: 0.9412
+  IDF1: 0.9316
+  Total Ground Truth Objects: 11280
+  Total Predicted Objects: 11197
+  Total Matches: 10749
+  False Positives: 448
+  False Negatives: 181
+  ID Switches: 0
+
+Comparison:
+  MOTA: Ours 0.9185 vs Accmpeg 0.9230
+  MOTP: Ours 0.9491 vs Accmpeg 0.9431
+  IDF1: Ours 0.9106 vs Accmpeg 0.9318
+  ID Switches: Ours 0 vs Accmpeg 0
+
+Comparison:
+  MOTA: Ours 0.9185 vs Uniqp 0.9191
+  MOTP: Ours 0.9491 vs Uniqp 0.9520
+  IDF1: Ours 0.9106 vs Uniqp 0.9448
+  ID Switches: Ours 0 vs Uniqp 0
+
+Comparison:
+  MOTA: Ours 0.9185 vs Aq 0.9085
+  MOTP: Ours 0.9491 vs Aq 0.9412
+  IDF1: Ours 0.9106 vs Aq 0.9316
+  ID Switches: Ours 0 vs Aq 0
+
+================================================================================
+
+OVERALL SUMMARY
+================================================================================
+
+OURS METHOD:
+----------------------------------------
+Average MOTA: 0.9395 ± 0.0346
+Average MOTP: 0.9542 ± 0.0098
+Average IDF1: 0.9438 ± 0.0237
+
+ACCMPEG METHOD:
+----------------------------------------
+Average MOTA: 0.9385 ± 0.0367
+Average MOTP: 0.9567 ± 0.0099
+Average IDF1: 0.9546 ± 0.0207
+
+UNIQP METHOD:
+----------------------------------------
+Average MOTA: 0.9512 ± 0.0285
+Average MOTP: 0.9643 ± 0.0105
+Average IDF1: 0.9642 ± 0.0183
+
+AQ METHOD:
+----------------------------------------
+Average MOTA: 0.9430 ± 0.0341
+Average MOTP: 0.9560 ± 0.0127
+Average IDF1: 0.9559 ± 0.0222
+

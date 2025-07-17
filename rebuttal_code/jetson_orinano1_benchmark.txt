@@ -1,0 +1,119 @@
+Jetson Quantile Categorization Benchmark Results
+==================================================
+
+System Information:
+--------------------
+NumPy version: 1.26.1
+Numba version: 0.61.2
+PyTorch version: 1.13.1
+
+Matrix Size: 480p (480x640)
+--------------------
+
+Implementation: CPU (NumPy)
+Mean Time: 25.00 ± 0.10 ms
+Time per Element: 0.081380 µs
+System Memory Delta: 0.00 MB
+
+Implementation: Numba
+Mean Time: 16.41 ± 0.21 ms
+Time per Element: 0.053425 µs
+System Memory Delta: 0.00 MB
+
+Implementation: PyTorch
+Mean Time: 5.61 ± 0.12 ms
+Time per Element: 0.018257 µs
+System Memory Delta: 0.17 MB
+
+==================================================
+
+Matrix Size: 720p (720x1280)
+--------------------
+
+Implementation: CPU (NumPy)
+Mean Time: 70.77 ± 0.09 ms
+Time per Element: 0.076789 µs
+System Memory Delta: 0.00 MB
+
+Implementation: Numba
+Mean Time: 41.89 ± 0.16 ms
+Time per Element: 0.045451 µs
+System Memory Delta: 0.00 MB
+
+Implementation: PyTorch
+Mean Time: 13.60 ± 0.18 ms
+Time per Element: 0.014752 µs
+System Memory Delta: 0.10 MB
+
+==================================================
+
+Matrix Size: 900p (900x1600)
+--------------------
+
+Implementation: CPU (NumPy)
+Mean Time: 115.76 ± 0.08 ms
+Time per Element: 0.080388 µs
+System Memory Delta: 0.00 MB
+
+Implementation: Numba
+Mean Time: 70.86 ± 0.42 ms
+Time per Element: 0.049209 µs
+System Memory Delta: 0.00 MB
+
+Implementation: PyTorch
+Mean Time: 19.74 ± 0.08 ms
+Time per Element: 0.013709 µs
+System Memory Delta: 0.00 MB
+
+==================================================
+
+Matrix Size: 1080p (1080x1920)
+--------------------
+
+Implementation: CPU (NumPy)
+Mean Time: 167.92 ± 0.14 ms
+Time per Element: 0.080981 µs
+System Memory Delta: 0.00 MB
+
+Implementation: Numba
+Mean Time: 103.00 ± 0.21 ms
+Time per Element: 0.049670 µs
+System Memory Delta: 0.00 MB
+
+Implementation: PyTorch
+Mean Time: 27.43 ± 0.07 ms
+Time per Element: 0.013227 µs
+System Memory Delta: 0.00 MB
+
+==================================================
+
+Summary Statistics
+--------------------
+
+Speedup Ratios (lower is better):
+
+Matrix Size: 1080p (1080x1920)
+CPU (NumPy): 6.12x
+Numba: 3.76x
+PyTorch: 1.00x
+
+Matrix Size: 480p (480x640)
+CPU (NumPy): 4.46x
+Numba: 2.93x
+PyTorch: 1.00x
+
+Matrix Size: 720p (720x1280)
+CPU (NumPy): 5.21x
+Numba: 3.08x
+PyTorch: 1.00x
+
+Matrix Size: 900p (900x1600)
+CPU (NumPy): 5.86x
+Numba: 3.59x
+PyTorch: 1.00x
+
+==================================================
+
+Note: All times are in milliseconds (ms) unless specified otherwise.
+Time per element is in microseconds (µs).
+Memory usage is in megabytes (MB).
