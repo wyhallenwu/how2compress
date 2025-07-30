@@ -1,6 +1,6 @@
 
 <div align="center">
-<h1>How2Compress: Efficient Edge Video Analytics via Adaptive Granular Video Compression</h1>
+<h1>How2Compress: Scalable and Efficient Edge Video Analytics via Adaptive Granular Video Compression</h1>
 
 
 **[CDSN Lab, KAIST](https://cds.kaist.ac.kr/)**
@@ -10,7 +10,7 @@ Yuheng Wu, Thanh-Tung Nguyen, Lucas Liebe, Nhat-Quang Tau, Pablo Espinosa Campos
 
 ```bibtex
 @inproceedings{wu2025how2compress,
-  title={How2Compress: Efficient Edge Video Analytics via Adaptive Granular Video Compression},
+  title={How2Compress: Scalable and Efficient Edge Video Analytics via Adaptive Granular Video Compression},
   author={Wu, Yuheng and Nguyen, Thanh-Tung and Lucas Liebe and  Tau, Nhat-Quang and Pablo Espinosa Campos and Cheng, Jinghan and Lee, Dongman},
   booktitle={Proceedings of the 33rd ACM International Conference on Multimedia},
   year={2025}
@@ -18,7 +18,7 @@ Yuheng Wu, Thanh-Tung Nguyen, Lucas Liebe, Nhat-Quang Tau, Pablo Espinosa Campos
 ```
 
 This repository contains the official implementation of the paper:
-"How2Compress: Efficient Edge Video Analytics via Adaptive Granular Video Compression"
+"How2Compress: Scalable and Efficient Edge Video Analytics via Adaptive Granular Video Compression"
 
 ## Env Setup
 We provide two options for setting up the environment: using a pre-built Docker image or building from scratch.
